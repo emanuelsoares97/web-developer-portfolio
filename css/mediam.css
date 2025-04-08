@@ -1,38 +1,65 @@
-/* Media Queries - Adaptação para telas maiores */
+/* Media Query para telas grandes */
 @media (min-width: 768px) {
-    /* Exibe o menu normalmente para telas maiores */
+
+
+   
     .menu {
         display: flex;
-        position: static;
         flex-direction: row;
-        gap: 20px;
+        position: static;
+        top: auto;
+        right: auto;
         background-color: transparent;
+        width: auto;
         border: none;
+        padding: 10px;
+
     }
 
     .menu a {
-        color: #ccc;
+        color: #fff;
         padding: 10px;
+        display: inline-block;
+        transition: color 0.3s;
     }
 
-    /* Remove o ícone do menu hamburguer em telas maiores */
     .menu-icon {
-        display: none;
+        display: none; /* Esconde o ícone do menu hambúrguer em telas grandes */
     }
 
-    /* Ajustes para a seção hero */
+    nav ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+    }
+
+    nav a:hover {
+        color: #00aaff;
+    }
+
     .hero {
-        padding: 100px 50px;
-        flex-direction: row;
-        gap: 80px;
-    }
+        gap: 40px; /* Reduz o espaçamento entre os elementos */
+        margin-top: 120px;
 
-    .profile-pic img {
-        width: 220px;
-        height: 220px;
     }
 
     .intro {
-        max-width: 700px;
+        text-align: left; /* No desktop, o texto dentro de 'intro' será alinhado à esquerda */
+    }
+
+
+    .profile-pic img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 8px solid #333;
+        box-shadow: 1px 1px 1px black;
+        margin-right: 50px;
     }
 }
