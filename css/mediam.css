@@ -1,0 +1,38 @@
+/* Media Queries - Adaptação para telas maiores */
+@media (min-width: 768px) {
+    /* Exibe o menu normalmente para telas maiores */
+    .menu {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        gap: 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu a {
+        color: #ccc;
+        padding: 10px;
+    }
+
+    /* Remove o ícone do menu hamburguer em telas maiores */
+    .menu-icon {
+        display: none;
+    }
+
+    /* Ajustes para a seção hero */
+    .hero {
+        padding: 100px 50px;
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    .profile-pic img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .intro {
+        max-width: 700px;
+    }
+}
