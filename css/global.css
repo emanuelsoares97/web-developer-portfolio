@@ -50,6 +50,9 @@ main {
     justify-content: space-between;
 }
   
+.iconmenu{
+    width: 25px;
+}
 
 .menu {
     display: none; /* Menu escondido no mobile */
