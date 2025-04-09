@@ -54,7 +54,7 @@
       width: 300px;
       height: 300px;
       border-radius: 50%;
-      border: 8px solid #333;
+      border: 8px solid #333333;
       box-shadow: 1px 1px 1px black;
       margin-right: 50px;
     }
@@ -82,7 +82,25 @@
   .project-card a {
       font-size: 1rem;
   }
+
+  /*pag about*/
+  .about-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+
+  .about-img img {
+    aspect-ratio: 3 / 4;
+    border: 8px solid #333;
+  }
 }
+
   
   /* Telas ainda maiores */
   @media (min-width: 1024px) {
