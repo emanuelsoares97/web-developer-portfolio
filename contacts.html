@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/components/buttons.css">
+    <link rel="stylesheet" href="../css/pages/contacts.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <!-- Menu-->
+    <nav class="navbar">
+        <div class="home-login-icons">
+            <a href="index.html"><img src="image/index/iconsntteste.png" alt="" class="iconmenu"></a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="material-icons">menu</i> <!--Icon 3 barras para o menu telemovel-->
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to send me a message!</p>
+    
+        <div class="contact-info">
+            <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+    
+            <div class="social-links">
+                <p>Or connect with me on:</p>
+                <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">LinkedIn</a>
+                <a href="https://github.com/seu-github" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/seu-instagram" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+  <script src="../script/menu.js"></script>
+</body>
+</html>
