@@ -1,6 +1,10 @@
 /* Media Query para telas grandes */
 @media (min-width: 768px) {
     /* global */
+
+    .iconmenu{
+      width: 30px;
+  }
     .menu {
       display: flex;
       flex-direction: row;
@@ -99,6 +103,42 @@
     aspect-ratio: 3 / 4;
     border: 8px solid #333;
   }
+
+  /* pag contact*/ 
+  .contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas */
+    gap: 20px;
+    max-width: 100%;
+}
+
+.contact form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    text-align: left;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+}
+
+.contact form button {
+    grid-column: span 2; /* Faz o botão ocupar as duas colunas */
+    align-self: center;
+}
+
+.social-links {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+}
 }
 
   
