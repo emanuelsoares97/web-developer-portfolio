@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/pages/index.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+</head>
+      
+<body>
+  <header>
+    <!-- Menu-->
+    <nav class="navbar">
+        <div class="home-login-icons">
+            <a href="index.html"><img src="image/index/iconsntteste.png" alt="" class="iconmenu"></a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="material-icons">menu</i> <!--Icon 3 barras para o menu telemovel-->
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="profile-pic">
+      <img src="../image/index/profile3.jpg" alt="Foto de Perfil">
+    </div>
+    <div class="intro">
+
+      <!--Text dinamic skills-->
+      <p class="small">Hi I'm <span class="skills"></span></p>
+      <h1>Emanuel Soares</h1>
+        <p class="description">I'm passionate about creating efficient and scalable systems. With experience in Flask, Python, and SQLite, I focus on building robust backend solutions.</p>
+        <p class="description">I'm currently working on projects involving automation, API development, and more. I love solving challenges and constantly learning new technologies to improve my skills.</p>
+      <div class="buttons">
+        <a href="#" class="btn">Download CV</a>
+        <a href="#" class="btn outline">Contact</a>
+      </div>
+      <div class="social">
+        <a href="https://github.com/emanuelsoares97" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/emanuel-soares-112112253/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/tutasoares_/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+
+    <!-- type effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+    <script src="../script/typeindex.js" ></script>
+    <script src="../script/menu.js"></script>
+  </main>
+</body>
+</html>
