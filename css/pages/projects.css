@@ -1,14 +1,16 @@
+
+h2 {
+  color: #00aaff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .projects-section {
     padding: 80px 20px;
     text-align: center;
    
   }
   
-  .projects-section h2 {
-    font-size: 2rem;
-    margin-bottom: 40px;
-    color: #00aaff;
-  }
   
   .projects-container {
     display: grid;
@@ -27,7 +29,7 @@
   }
   
   .project-card h3 {
-    color: #00aaff;
+    color: #00aaffa2;
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
