@@ -27,7 +27,21 @@ header {
     z-index: 1000;
 }
 
-/* Menu de navegação (menu hamburguer escondido inicialmente) */
+:root {
+--navbar-height: 60px;
+}
+
+
+nav {
+    height: var(--navbar-height);
+}
+
+
+main {
+    padding-top: var(--navbar-height);
+}
+
+
 .navbar {
     width: 100%;
     padding: 10px;
@@ -35,6 +49,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+  
 
 .menu {
     display: none; /* Menu escondido no mobile */
@@ -75,5 +90,7 @@ header {
     color: white;
 }
 
-
+.menu-icon:hover {
+    color: #00aaff;
+  }
 
