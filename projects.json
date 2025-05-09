@@ -1,0 +1,46 @@
+[
+  {
+    "title": "AutoMail SaaS",
+    "description": "Automatic email sending system for HR teams built with Flask and SQLite.",
+    "technologies": "Flask, SQLite, SMTP, JWT",
+    "repo": "https://github.com/emanuelsoares97/email-automation"
+  },
+  {
+    "title": "PC Price Tracker",
+    "description": "Scrapes and tracks PC hardware prices to assist with budget planning.",
+    "technologies": "Python, Selenium, HTML, CSS, JavaScript",
+    "repo": "https://github.com/emanuelsoares97/pc-price-tracker"
+  },
+  {
+    "title": "Store Management System",
+    "description": "Manage products, users, and orders with authentication and admin interface.",
+    "technologies": "Flask, SQLite, JWT",
+    "repo": "https://github.com/emanuelsoares97/store-management-system"
+  },
+  {
+    "title": "Sales Data Analysis",
+    "description": "Sales data insights using Pandas and Matplotlib.",
+    "technologies": "Python, Pandas, Matplotlib, Seaborn",
+    "repo": "https://github.com/emanuelsoares97/projeto-analisevendasloja"
+  },
+  {
+    "title": "Metin2 YOLO Detector",
+    "description": "Object detection for Metin2 game using YOLO and OpenCV.",
+    "technologies": "Python, YOLOv5, OpenCV",
+    "repo": "https://github.com/emanuelsoares97/metin2-yolo-detector"
+  },
+  {
+    "title": "Store Simulator",
+    "description": "Responsive shopping experience using LocalStorage.",
+    "technologies": "HTML, CSS, JavaScript",
+    "repo": "https://github.com/emanuelsoares97/projeto-lojaonline",
+    "demo": "https://emanuelsoares97.github.io/projeto-lojaonline/"
+  },
+  {
+    "title": "Arena Kids Scoreboard",
+    "description": "Interactive scoreboard for children’s event with timer and confetti celebration.",
+    "technologies": "HTML, CSS, JavaScript, Confetti.js",
+    "repo": "https://github.com/emanuelsoares97/arena-kids-scoreboard",
+    "demo": "https://emanuelsoares97.github.io/arena-kids-scoreboard/"
+  }
+]
