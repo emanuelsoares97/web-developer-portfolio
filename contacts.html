@@ -44,18 +44,13 @@
         <p>If you'd like to get in touch, feel free to send me a message!</p>
     
         <div class="contact-info">
-            <form action="mailto:como" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-    
-                <button type="submit" class="btn">Send Message</button>
+            <form id="contact-form">
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+              <input type="email" id="email" name="email" placeholder="Your email" required>
+              <textarea id="message" name="message" placeholder="Your message" required></textarea>
+              <button type="submit">Send</button>
             </form>
+            <div id="status"></div>
     
             <div class="social-links">
                 <p>Or connect with me on:</p>
@@ -67,6 +62,7 @@
     </section>
     
     </main>
+  <script src="script/form.js"></script>
   <script src="script/menu.js"></script>
 </body>
 </html>
