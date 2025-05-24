@@ -31,8 +31,8 @@
   },
   {
     "title": "Store Simulator",
-    "description": "Responsive shopping experience using LocalStorage.",
-    "technologies": "HTML, CSS, JavaScript",
+    "description": "Responsive shopping experience with cart functionality and email integration. Users can place orders or send contact requests, which are automatically sent to the store owner via email. Built with HTML, CSS, and JavaScript on the frontend, and a Flask API handling the backend email logic.",
+    "technologies": "HTML, CSS, JavaScript, Flask, Python, SMTP, Render",
     "repo": "https://github.com/emanuelsoares97/projeto-lojaonline",
     "demo": "https://emanuelsoares97.github.io/projeto-lojaonline/"
   },
