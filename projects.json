@@ -1,16 +1,17 @@
 [
   {
-    "title": "PC Price Tracker",
-    "description": "Scrapes and tracks PC hardware prices to assist with budget planning.",
-    "technologies": "Python, Selenium, HTML, CSS, JavaScript",
-    "repo": "https://github.com/emanuelsoares97/pc-price-tracker"
-  },
-  {
     "title": "Store Management System",
     "description": "Manage products, users, and orders with authentication and admin interface. User: admin@store.com, Password: admin123",
     "technologies": "Flask, Postgre, JWT, Render, JavaScript",
     "repo": "https://github.com/emanuelsoares97/store-management-system",
     "demo": "https://emanuelsoares97.github.io/store-management-system-frontend/login.html"
+  },
+  {
+    "title": "PC Price Tracker",
+    "description": "Scrapes and tracks PC hardware prices to assist with budget planning. Scrapes and tracks PC hardware prices to assist with budget planning. Only work on localhost because the site block bot using headless",
+    "technologies": "Python, Selenium, Railway, JavaScript",
+    "repo": "https://github.com/emanuelsoares97/pc-price-tracker",
+    "demo":"https://pc-price-tracker-production.up.railway.app/"
   },
   {
     "title": "Sales Data Analysis",
