@@ -8,7 +8,7 @@
   },
   {
     "title": "PC Price Tracker",
-    "description": "Scrapes and tracks PC hardware prices to assist with budget planning. Scrapes and tracks PC hardware prices to assist with budget planning. Only work on localhost because the site block bot using headless",
+    "description": "Scrapes and tracks PC hardware prices to assist with budget planning. Only work on localhost because the site block bot using headless",
     "technologies": "Python, Selenium, Railway, JavaScript",
     "repo": "https://github.com/emanuelsoares97/pc-price-tracker",
     "demo":"https://pc-price-tracker-production.up.railway.app/"
