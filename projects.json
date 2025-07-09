@@ -14,6 +14,12 @@
     "demo":"https://pc-price-tracker-production.up.railway.app/"
   },
   {
+  "title": "Interview Transcriber",
+  "description": "Transcribes in real time what you say into the microphone and/or what is playing on the PC. Useful for interviews, meetings, or quick subtitles. The backend uses Flask and Whisper (OpenAI) for transcription. System audio only works on localhost due to technical and cloud limitations.",
+  "technologies": "python, flask, socket.io, openai-whisper, javascript",
+  "repo": "https://github.com/emanuelsoares97/interview-transcriber" 
+  },
+  {
     "title": "Sales Data Analysis",
     "description": "Sales data insights using Pandas and Matplotlib.",
     "technologies": "Python, Pandas, Matplotlib, Seaborn",
