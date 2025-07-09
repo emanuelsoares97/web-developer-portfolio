@@ -16,7 +16,7 @@
   {
   "title": "Interview Transcriber",
   "description": "Transcribes in real time what you say into the microphone and/or what is playing on the PC. Useful for interviews, meetings, or quick subtitles. The backend uses Flask and Whisper (OpenAI) for transcription. System audio only works on localhost due to technical and cloud limitations.",
-  "technologies": "python, flask, socket.io, openai-whisper, javascript",
+  "technologies": "Python, Flask, Socket.io, Openai-whisper, JavaScript",
   "repo": "https://github.com/emanuelsoares97/interview-transcriber" 
   },
   {
