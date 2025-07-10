@@ -2,7 +2,7 @@
   {
     "title": "Store Management System",
     "description": "Manage products, users, and orders with authentication and admin interface. User: admin@store.com, Password: admin123",
-    "technologies": "Flask, Postgre, JWT, Render, JavaScript",
+    "technologies": "Flask, SQLAlchemy, PostgreSQL, JWT, Render, JavaScript",
     "repo": "https://github.com/emanuelsoares97/store-management-system",
     "demo": "https://emanuelsoares97.github.io/store-management-system-frontend/login.html"
   },
