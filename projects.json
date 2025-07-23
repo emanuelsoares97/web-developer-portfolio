@@ -6,6 +6,15 @@
     "repo": "https://github.com/emanuelsoares97/store-management-system",
     "demo": "https://emanuelsoares97.github.io/store-management-system-frontend/login.html"
   },
+  
+  {
+    "title": "Audio Transcriber",
+    "description": "Web app for automatic audio transcription using advanced speech recognition models (OpenAI Whisper). Supports file upload, speaker diarization, export to JSON or PDF, and features a modern, responsive interface.",
+    "technologies": "Python, Flask, OpenAI Whisper, JavaScript, Bootstrap",
+    "repo": "https://github.com/emanuelsoares97/speaker-transcribe",
+    "demo": ""
+  },
+  
   {
     "title": "PC Price Tracker",
     "description": "Scrapes and tracks PC hardware prices to assist with budget planning. Only work on localhost because the site block bot using headless",
