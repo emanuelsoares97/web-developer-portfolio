@@ -14,6 +14,15 @@
     "repo": "https://github.com/emanuelsoares97/speaker-transcribe",
     "demo": ""
   },
+
+  {
+    "title": "Blog-Django",
+    "description": "Simple blog application built with Django. Users can register, log in, and CRUD blog posts. Includes authentication and admin panel.",
+    "technologies": "Python, Django, SQLite, HTML, CSS",
+    "repo": "https://github.com/emanuelsoares97/blog-django",
+    "demo": "http://127.0.0.1:8000/"
+  },
+
   
   {
     "title": "PC Price Tracker",
