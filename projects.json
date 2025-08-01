@@ -2,7 +2,7 @@
   {
     "title": "Store Management System",
     "description": "Manage products, users, and orders with authentication and admin interface. User: admin@store.com, Password: admin123",
-    "technologies": "Flask, SQLAlchemy, PostgreSQL, JWT, Render, JavaScript",
+    "technologies": "Flask, SQLAlchemy, PostgreSQL, JWT, JavaScript",
     "repo": "https://github.com/emanuelsoares97/store-management-system",
     "demo": "https://emanuelsoares97.github.io/store-management-system-frontend/login.html"
   },
@@ -27,7 +27,7 @@
   {
     "title": "PC Price Tracker",
     "description": "Scrapes and tracks PC hardware prices to assist with budget planning. Only work on localhost because the site block bot using headless",
-    "technologies": "Python, Selenium, Railway, JavaScript",
+    "technologies": "Python, Selenium, JavaScript",
     "repo": "https://github.com/emanuelsoares97/pc-price-tracker",
     "demo":"https://pc-price-tracker-production.up.railway.app/"
   },
@@ -52,7 +52,7 @@
   {
     "title": "Store Simulator",
     "description": "Responsive shopping experience with cart functionality and email integration. Users can place orders or send contact requests, which are automatically sent to the store owner via email. Built with HTML, CSS, and JavaScript on the frontend, and a Flask API handling the backend email logic.",
-    "technologies": "HTML, CSS, JavaScript, Flask, Python, SMTP, Render",
+    "technologies": "HTML, CSS, JavaScript, Flask, Python, SMTP",
     "repo": "https://github.com/emanuelsoares97/projeto-lojaonline",
     "demo": "https://emanuelsoares97.github.io/projeto-lojaonline/"
   },
