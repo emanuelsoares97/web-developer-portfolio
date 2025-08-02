@@ -11,16 +11,14 @@
     "title": "Audio Transcriber",
     "description": "Web app for automatic audio transcription using advanced speech recognition models (OpenAI Whisper). Supports file upload, speaker diarization, export to JSON or PDF, and features a modern, responsive interface.",
     "technologies": "Python, Flask, OpenAI Whisper, JavaScript, Bootstrap",
-    "repo": "https://github.com/emanuelsoares97/speaker-transcribe",
-    "demo": ""
+    "repo": "https://github.com/emanuelsoares97/speaker-transcribe"
   },
 
   {
     "title": "Blog-Django",
     "description": "Simple blog application built with Django. Users can register, log in, and CRUD blog posts. Includes authentication and admin panel.",
     "technologies": "Python, Django, SQLite, HTML, CSS",
-    "repo": "https://github.com/emanuelsoares97/blog-django",
-    "demo": "http://127.0.0.1:8000/"
+    "repo": "https://github.com/emanuelsoares97/blog-django"
   },
 
   
