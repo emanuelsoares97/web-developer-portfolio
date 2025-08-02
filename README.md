@@ -1,28 +1,10 @@
-# My Portfolio
+# Portfolio – Emanuel Soares
 
-This is my personal portfolio where I showcase the projects I’ve worked on and the skills I’ve acquired as a developer.
+Meu portfólio pessoal como desenvolvedor web. Aqui você encontra meus principais projetos, tecnologias que uso e formas de contato.
 
-## Technologies Used:
-- HTML
-- CSS (Flexbox, Grid)
-- JavaScript
-- Git/GitHub
+## Contato
+- GitHub: [github.com/emanuelsoares97](https://github.com/emanuelsoares97)
+- LinkedIn: [linkedin.com/in/seu-linkedin](https://www.linkedin.com/in/emanuel-soares1997/)
 
-## Projects:
-Here are some of the projects I’m working on:
-
-1. **Email Automation SaaS**
-   - Description: A software as a service (SaaS) platform for automating email sending.
-   - Tech: Flask, Python, SQLite
-   - [View the code on GitHub](https://github.com/emanuelsoares97/email-automation)
-
-2. **Web Scraping Script**
-   - Description: A web scraping tool built with Python and Selenium.
-   - Tech: Python, Selenium
-   - [View the code on GitHub](https://github.com/emanuelsoares97/pc-price-tracker)
-
-## How to View:
-You can view my portfolio live [here](https://github.com/emanuelsoares97).
-
-## License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Licença
+MIT
