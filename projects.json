@@ -6,12 +6,20 @@
     "repo": "https://github.com/emanuelsoares97/store-management-system",
     "demo": "https://emanuelsoares97.github.io/store-management-system-frontend/login.html"
   },
+
+  {
+    "title": "PC Price Tracker",
+    "description": "Tracks and analyzes PC hardware prices from Globaldata. Performs daily scraping, compares price history, and sends automatic email alerts on significant drops.",
+    "technologies": "Python, Selenium, Flask, JavaScript, GitHub Actions",
+    "repo": "https://github.com/emanuelsoares97/pc-price-tracker",
+    "demo": "https://pc-price-tracker.onrender.com/"
+},
   
   {
     "title": "Audio Transcriber",
     "description": "Web app for automatic audio transcription using advanced speech recognition models (OpenAI Whisper). Supports file upload, speaker diarization, export to JSON or PDF, and features a modern, responsive interface.",
     "technologies": "Python, Flask, OpenAI Whisper, JavaScript, Bootstrap",
-    "repo": "https://github.com/emanuelsoares97/speaker-transcribe"
+    "repo": "https://github.com/emanuelsoares97/audio-transcriber"
   },
 
   {
@@ -21,14 +29,6 @@
     "repo": "https://github.com/emanuelsoares97/blog-django"
   },
 
-  
-  {
-    "title": "PC Price Tracker",
-    "description": "Scrapes and tracks PC hardware prices to assist with budget planning. Only work on localhost because the site block bot using headless",
-    "technologies": "Python, Selenium, JavaScript",
-    "repo": "https://github.com/emanuelsoares97/pc-price-tracker",
-    "demo":"https://pc-price-tracker-production.up.railway.app/"
-  },
   {
   "title": "Interview Transcriber",
   "description": "Transcribes in real time what you say into the microphone and/or what is playing on the PC. Useful for interviews, meetings, or quick subtitles. The backend uses Flask and Whisper (OpenAI) for transcription. System audio only works on localhost due to technical and cloud limitations.",
