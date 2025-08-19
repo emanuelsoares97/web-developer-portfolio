@@ -1,5 +1,5 @@
 [
-  {
+  
     {
       "title": "Blog-Django",
       "description": "A full-featured blog application built with Django, offering authentication (email/password and social login), post creation and editing, comments, likes, notifications, private messages, responsive templates, and an admin area. It includes user management, highlights (top posts by likes/comments), and profile avatars stored in the cloud. The project also integrates a CI pipeline for testing and Docker image builds, plus CD for automated containerized deployment.",
