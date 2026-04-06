@@ -23,17 +23,24 @@
         <!-- Menu-->
         <nav class="navbar">
             <div class="home-login-icons">
-                <a href="index.html"><img src="image/index/iconsnt.png" alt="" class="iconmenu"></a>
-            </div>
-            <div class="menu-icon" onclick="toggleMenu()">
-                <i class="material-icons">menu</i> <!--Icon 3 barras para o menu telemovel-->
+                <a href="index.html"><img src="image/index/logocc.png" alt="" class="iconmenu"></a>
             </div>
             <ul class="menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="contacts.html">Contact</a></li>
+              <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+              <li><a href="about.html" data-i18n="nav-about">About</a></li>
+              <li><a href="projects.html" data-i18n="nav-projects">Projects</a></li>
+              <li><a href="contacts.html" data-i18n="nav-contact">Contact</a></li>
             </ul>
+            <div class="navbar-right">
+                <button class="lang-toggle" onclick="toggleLang()" aria-label="Toggle language">
+                    <span data-lang-opt="pt">PT</span>
+                    <span class="lang-divider">|</span>
+                    <span data-lang-opt="en">EN</span>
+                </button>
+                <div class="menu-icon">
+                    <i class="material-icons">menu</i>
+                </div>
+            </div>
         </nav>
       </header>
 
@@ -43,17 +50,18 @@
             <img src="image/index/profile3.jpg" alt="Your photo">
           </div>
           <div class="about-text">
-            <h2>About Me</h2>
-            <p>Hi! I'm Emanuel, a self-taught web developer passionate about building real, functional solutions through code. I began my programming journey in November 2024 and quickly discovered my love for backend development.</p>
+            <h2 data-i18n="about-title">About Me</h2>
+            <p data-i18n="about-p1">Hi! I'm Emanuel, a self-taught backend developer with a strong focus on Django. I started coding in November 2024 and quickly fell in love with building real, production-ready web applications.</p>
         
-            <p>Since then, I’ve been focusing on Python and Flask to create practical applications — like automation tools and SaaS platforms. My goal is to become a backend specialist, but I'm also learning frontend basics so I can bring my ideas to life from start to finish.</p>
+            <p data-i18n="about-p2">Django became my main tool for creating robust solutions — from fullstack platforms with authentication, email flows, and payment tracking, to REST APIs and automated pipelines. I love the way Django lets me move fast without sacrificing structure.</p>
         
-            <p>I enjoy solving problems, organizing systems, and constantly challenging myself to learn more. I believe that every line of code I write brings me closer to becoming a professional developer.</p>
+            <p data-i18n="about-p3">I've shipped projects like a church management platform, a blog with CI/CD, a store system, and several automation tools — all available on my GitHub. Every project taught me something I couldn't learn from tutorials alone.</p>
         
-            <p>Outside of programming, I’m always thinking about new ideas, improving existing projects, and preparing for my next step into the tech industry.</p>
+            <p data-i18n="about-p4">My goal is to grow as a Django developer, work on challenging products, and eventually contribute to teams building things that matter. I'm currently open to junior backend opportunities.</p>
           </div>
         </section>      
       
     <script src="script/menu.js"></script>
+    <script src="script/lang.js"></script>
 </body>
 </html>

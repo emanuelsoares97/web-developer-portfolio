@@ -1,15 +1,26 @@
 [
+
   
+{
+  "title": "Church Platform",
+  "description": "A fullstack web platform built with Django for church and community management. The project currently focuses on a complete event lifecycle, including public event pages, multi-participant registrations, automatic ticket generation, unique QR codes, transactional email delivery, payment tracking, and real-time check-in via QR scanner or manual validation. It also includes an internal management dashboard with KPIs, AJAX-based operations, role-based access control, and reporting features. The platform integrates cloud media storage and email services, and is designed with a modular architecture to evolve into a complete church website with additional modules such as content management, communication tools, and administrative dashboards.",
+  "description_pt": "Plataforma web fullstack construída com Django para gestão de igrejas e comunidades. O projeto foca-se num ciclo de vida completo de eventos: páginas públicas, registos com múltiplos participantes, geração automática de bilhetes, QR codes únicos, emails transacionais, acompanhamento de pagamentos e check-in em tempo real via scanner ou validação manual. Inclui um painel de gestão interno com KPIs, operações via AJAX, controlo de acesso por funções e relatórios. A plataforma integra armazenamento na cloud e serviços de email, com arquitetura modular para evoluir para um website completo com módulos de conteúdos, comunicação e dashboards administrativos.",
+  "technologies": "Python, Django, PostgreSQL, SQLite, Cloudinary, Resend, WhiteNoise, HTML, CSS, JavaScript",
+  "repo": "https://github.com/emanuelsoares97/church-platform",
+  "demo": "https://unidos-com-cristo.onrender.com/"
+},
   {
-      "title": "Church Platform",
-      "description": "A web platform built with Django for church/community management, currently focused on a complete event workflow. It includes public event pages, multi-participant registrations, individual ticket generation, unique QR codes, automatic email delivery, payment tracking, and participant check-in through both QR scanner and manual validation. The project features a responsive interface, admin dashboard with KPIs, AJAX-based management actions, cloud image storage, and transactional email integration, and is designed to evolve into a full church website with additional modules in the future.",
-      "technologies": "Python, Django, PostgreSQL, SQLite, Cloudinary, Resend, WhiteNoise, HTML, CSS, JavaScript",
-      "repo": "https://github.com/emanuelsoares97/church-platform",
-      "demo": "https://unidos-com-cristo.onrender.com/eventos/"
-      },
+"title": "Internal-Retention-Analytics",
+"description": "A full-featured internal analytics platform built with Django for retention and operational performance monitoring. It includes secure authentication, role-based access control, responsive dashboards, KPI tracking, assistant-level drilldowns, period-over-period comparison, CSV exports, and robust Excel import pipelines with validation and inconsistency checks. The project follows a modular architecture and production-ready practices, including PostgreSQL integration, static asset optimization, and automated testing for reliable deployments.",
+"description_pt": "Plataforma interna completa de analytics em Django para monitorização de retenção e performance operacional. Inclui autenticação segura, controlo de acesso por perfis, dashboards responsivos, acompanhamento de KPIs, análise por assistente, comparação entre períodos, exportações CSV e pipelines robustos de importação de Excel com validação e deteção de inconsistências. O projeto segue uma arquitetura modular e práticas de produção, com integração PostgreSQL, otimização de assets estáticos e testes automatizados para deploys fiáveis.",
+"technologies": "Python, Django, PostgreSQL, Supabase, WhiteNoise, Gunicorn, Pytest, HTML, CSS, JavaScript",
+"repo": "https://github.com/emanuelsoares97/dashboard",
+"demo": "https://retention-analytics.onrender.com/"
+},
     {
       "title": "Blog-Django",
       "description": "A full-featured blog application built with Django, offering authentication (email/password and social login), post creation and editing, comments, likes, notifications, private messages, responsive templates, and an admin area. It includes user management, highlights (top posts by likes/comments), and profile avatars stored in the cloud. The project also integrates a CI pipeline for testing and Docker image builds, plus CD for automated containerized deployment.",
+      "description_pt": "Aplicação de blog completa em Django com autenticação (email/password e login social), criação e edição de posts, comentários, gostos, notificações, mensagens privadas, templates responsivos e área de administração. Inclui gestão de utilizadores, destaques (posts mais populares) e avatares na cloud. O projeto integra pipeline de CI para testes e imagens Docker, além de CD para deployment automatizado em contentores.",
       "technologies": "Python, Django, Django Allauth, PostgreSQL, Cloudinary, WhiteNoise, Docker, GitHub Actions, HTML, CSS, JavaScript",
       "repo": "https://github.com/emanuelsoares97/blog-django",
       "demo": "https://blog-django-37ba.onrender.com/"
@@ -17,6 +28,7 @@
     {
     "title": "Store Management System",
     "description": "Manage products, users, and orders with authentication and admin interface. User: admin@store.com, Password: admin123",
+    "description_pt": "Gere produtos, utilizadores e encomendas com autenticação e interface de administração. Utilizador: admin@store.com, Password: admin123",
     "technologies": "Flask, SQLAlchemy, PostgreSQL, JWT, JavaScript",
     "repo": "https://github.com/emanuelsoares97/store-management-system",
     "demo": "https://emanuelsoares97.github.io/store-management-system-frontend/login.html"
@@ -25,6 +37,7 @@
   {
     "title": "PC Price Tracker",
     "description": "Tracks and analyzes PC hardware prices from Globaldata. Performs daily scraping, compares price history, and sends automatic email alerts on significant drops.",
+    "description_pt": "Monitoriza e analisa preços de hardware para PC da Globaldata. Realiza scraping diário, compara histórico de preços e envia alertas automáticos por email em caso de quedas significativas.",
     "technologies": "Python, Selenium, Flask, JavaScript, GitHub Actions",
     "repo": "https://github.com/emanuelsoares97/pc-price-tracker",
     "demo": "https://pc-price-tracker.onrender.com/"
@@ -33,6 +46,7 @@
   {
     "title": "Audio Transcriber",
     "description": "Web app for automatic audio transcription using advanced speech recognition models (OpenAI Whisper). Supports file upload, speaker diarization, export to JSON or PDF, and features a modern, responsive interface.",
+    "description_pt": "Aplicação web para transcrição automática de áudio com modelos avançados de reconhecimento de voz (OpenAI Whisper). Suporta upload de ficheiros, diarização de oradores, exportação para JSON ou PDF e apresenta uma interface moderna e responsiva.",
     "technologies": "Python, Flask, OpenAI Whisper, JavaScript, Bootstrap",
     "repo": "https://github.com/emanuelsoares97/audio-transcriber"
   },
@@ -42,32 +56,35 @@
   {
   "title": "Interview Transcriber",
   "description": "Transcribes in real time what you say into the microphone and/or what is playing on the PC. Useful for interviews, meetings, or quick subtitles. The backend uses Flask and Whisper (OpenAI) for transcription. System audio only works on localhost due to technical and cloud limitations.",
+  "description_pt": "Transcreve em tempo real o que diz ao microfone e/ou o que está a ser reproduzido no PC. Útil para entrevistas, reuniões ou legendas rápidas. O backend utiliza Flask e Whisper (OpenAI) para a transcrição. O áudio do sistema apenas funciona em localhost devido a limitações técnicas e de cloud.",
   "technologies": "Python, Flask, Socket.io, Openai-whisper, JavaScript",
   "repo": "https://github.com/emanuelsoares97/interview-transcriber" 
   },
   {
     "title": "Sales Data Analysis",
     "description": "Sales data insights using Pandas and Matplotlib.",
+    "description_pt": "Análise de dados de vendas com insights usando Pandas e Matplotlib.",
     "technologies": "Python, Pandas, Matplotlib, Seaborn",
     "repo": "https://github.com/emanuelsoares97/projeto-analisevendasloja"
   },
   {
     "title": "Metin2 YOLO Detector",
     "description": "Object detection for Metin2 game using YOLO and OpenCV.",
+    "description_pt": "Deteção de objetos no jogo Metin2 usando YOLO e OpenCV.",
     "technologies": "Python, YOLOv5, OpenCV",
     "repo": "https://github.com/emanuelsoares97/metin2-yolo-detector"
   },
   {
     "title": "Store Simulator",
     "description": "Responsive shopping experience with cart functionality and email integration. Users can place orders or send contact requests, which are automatically sent to the store owner via email. Built with HTML, CSS, and JavaScript on the frontend, and a Flask API handling the backend email logic.",
+    "description_pt": "Experiência de compra responsiva com carrinho e integração de email. Os utilizadores podem fazer encomendas ou enviar pedidos de contacto, que são automaticamente enviados ao proprietário da loja. Construído com HTML, CSS e JavaScript no frontend e uma API Flask no backend.",
     "technologies": "HTML, CSS, JavaScript, Flask, Python, SMTP",
     "repo": "https://github.com/emanuelsoares97/projeto-lojaonline",
     "demo": "https://emanuelsoares97.github.io/projeto-lojaonline/"
   },
   {
     "title": "Arena Kids Scoreboard",
-    "description": "Interactive scoreboard for children’s event with timer and confetti celebration.",
-    "technologies": "HTML, CSS, JavaScript, Confetti.js",
+    "description": "Interactive scoreboard for children’s event with timer and confetti celebration.",    "description_pt": "Marcador interativo para evento infantil com temporizador e celebração com confettis.",    "technologies": "HTML, CSS, JavaScript, Confetti.js",
     "repo": "https://github.com/emanuelsoares97/arena-kids-scoreboard",
     "demo": "https://emanuelsoares97.github.io/arena-kids-scoreboard/"
   }
