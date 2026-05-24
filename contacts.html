@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <meta name="description" content="Contact Emanuel Soares for junior backend opportunities, collaboration or project questions.">
+    <meta name="author" content="Emanuel Soares">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contact | Emanuel Soares">
+    <meta property="og:description" content="Contact Emanuel Soares for junior backend opportunities, collaboration or project questions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emanuelsoares97.github.io/web-developer-portfolio/contacts.html">
+    <meta property="og:image" content="https://emanuelsoares97.github.io/web-developer-portfolio/image/index/logocc.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://emanuelsoares97.github.io/web-developer-portfolio/contacts.html">
+    <link rel="icon" type="image/png" href="image/index/logocc.png">
+    <title>Contact | Emanuel Soares</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/components/buttons.css">
     <link rel="stylesheet" href="css/pages/contacts.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
@@ -24,7 +36,7 @@
     <!-- Menu-->
     <nav class="navbar">
         <div class="home-login-icons">
-            <a href="index.html"><img src="image/index/logocc.png" alt="" class="iconmenu"></a>
+            <a href="index.html"><img src="image/index/logocc.png" alt="Emanuel Soares logo" class="iconmenu"></a>
         </div>
             <ul class="menu">
           <li><a href="index.html" data-i18n="nav-home">Home</a></li>
@@ -51,7 +63,11 @@
         <p data-i18n="contact-subtitle">If you'd like to get in touch, feel free to send me a message!</p>
     
         <div class="contact-info">
-            <form id="contact-form">
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+              
+              <input type="hidden" name="access_key" value="30ef2fb1-d736-4d8f-b3d2-daa4e03d899d">
+              <input type="hidden" name="subject" value="New portfolio contact message">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
               <input type="text" id="name" name="name" placeholder="Your name" data-i18n-placeholder="name" required>
               <input type="email" id="email" name="email" placeholder="Your email" data-i18n-placeholder="email" required>
               <textarea id="message" name="message" placeholder="Your message" data-i18n-placeholder="message" required></textarea>
@@ -61,9 +77,9 @@
     
             <div class="social-links">
                 <p data-i18n="contact-or">Or connect with me on:</p>
-                <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">LinkedIn</a>
-                <a href="https://github.com/seu-github" target="_blank">GitHub</a>
-                <a href="https://www.instagram.com/seu-instagram" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/emanuel-soares1997" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/emanuelsoares97" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.instagram.com/tutasoares_" target="_blank" rel="noopener noreferrer">Instagram</a>
             </div>
         </div>
     </section>

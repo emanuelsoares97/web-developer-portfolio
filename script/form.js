@@ -1,38 +1,42 @@
-document.getElementById("contact-form").addEventListener("submit", async (e)=>{
-    e.preventDefault();
+const contactForm = document.getElementById("contact-form");
+const statusMessage = document.getElementById("status");
 
-    //valores
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-    const status = document.getElementById("status");
+if (contactForm) {
+    contactForm.addEventListener("submit", async function (event) {
+        event.preventDefault();
 
-    //quando clicado mostra uma mensagem
-    status.textContent="Sending...";
+        const formData = new FormData(contactForm);
+        const accessKey = formData.get("access_key");
 
-    try{
-    
-        // enviar os dados para o dominio
-        const res = await fetch("https://portfolio-api-contact.onrender.com/contact", {
-            method: "POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify({name, email, message})
-        });
-
-        //dados transformados em json
-        const data = await res.json();
-
-        if(res.ok){
-            status.textContent=data.message || "Message send!";
-
-            e.target.reset();
-            
-        } else{
-            status.textContent = data.error || "Oops, something went wrong.";
+        if (!accessKey || accessKey === "YOUR_WEB3FORMS_ACCESS_KEY") {
+            statusMessage.textContent = "Configure your Web3Forms access key before publishing the form.";
+            statusMessage.className = "status-message error";
+            return;
         }
-        
-    } catch(err){
-        console.error(err);
-        status.textContent="Network error. Try again later.";
-    }
-})
+
+        statusMessage.textContent = "Sending...";
+        statusMessage.className = "status-message";
+
+        try {
+            const response = await fetch(contactForm.action, {
+                method: "POST",
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.success) {
+                statusMessage.textContent = "Message sent successfully!";
+                statusMessage.className = "status-message success";
+                contactForm.reset();
+            } else {
+                statusMessage.textContent = result.message || "Something went wrong. Please try again.";
+                statusMessage.className = "status-message error";
+            }
+        } catch (error) {
+            console.error(error);
+            statusMessage.textContent = "Network error. Please try again later.";
+            statusMessage.className = "status-message error";
+        }
+    });
+}

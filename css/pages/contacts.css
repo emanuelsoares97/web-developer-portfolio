@@ -51,3 +51,21 @@
 .social-links a:hover {
     color: #008ecc;
 }
+
+
+.status-message {
+    margin-top: 16px;
+    font-size: 0.95rem;
+}
+
+.status-message.success {
+    color: #1f8f4d;
+}
+
+.status-message.error {
+    color: #c0392b;
+}
+
+.hidden {
+    display: none;
+}
